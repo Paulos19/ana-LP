@@ -299,3 +299,8 @@ footer {
     .prints-grid, .media-grid { grid-template-columns: 1fr; }
 }
 
+@media (max-width: 768px) {
+    .final-cta .section-title {
+        font-size: 1.8rem; /* Ajuste o tamanho da fonte para caber na linha */
+    }
+}
